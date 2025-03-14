@@ -47,6 +47,7 @@ public class DisplayQuestionAction extends AnAction {
             toolWindow.getContentManager().addContent(content);
         }
 
+
         // Update content with selected code
         Content content = toolWindow.getContentManager().getContent(0);
         if (content != null && content.getComponent() instanceof DisplayQuestionToolWindowContent) {
